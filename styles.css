@@ -1,0 +1,97 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor Principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Post */
+.post {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header del Post */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.user-info i {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.3)
+    }
+
+.user-info h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #333333c6
+}
+
+.user-info h2 span {
+    display: block;
+    font-size: 12px;
+    color: #888;
+}
+
+/* Imagen del Post */
+.post-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Iconos del Post */
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #555;
+}
+
+.post-icons .left-icons {
+    display: flex;
+    gap: 15px;
+}
+
+/* Cuerpo del Post */
+.post-body {
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+.post-body p {
+    margin: 10px 0;
+}
+
+.post-body strong {
+    font-weight: bold;
+}
